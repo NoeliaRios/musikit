@@ -10,7 +10,7 @@ function App() {
   const redirect_uri = `http://localhost:3000/dashboard`;
   return (
     <div className="App">
-      <a href={`${baseUrl}/client_id=${clientId}&response_type=${responseType}&redirect_uri=${redirect_uri}`}>Loguearme a Spotify</a>
+      <a href={`${baseUrl}?client_id=${clientId}&response_type=${responseType}&redirect_uri=${redirect_uri}`}>Loguearme a Spotify</a>
       {/* <Login />
       <Button /> */}
     </div>
